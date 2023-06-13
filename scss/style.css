@@ -9862,6 +9862,7 @@ h1, h2, h3, h4, h5,
 .ftco-hireme {
   background: #b41515;
   z-index: -1;
+  padding: 3em 0;
 }
 .ftco-hireme h2 {
   color: #fff;
@@ -10034,21 +10035,12 @@ textarea.form-control {
   font-size: 24px;
 }
 .ftco-section {
-  padding: 7em 0;
   position: relative;
 }
 @media (max-width: 767.98px) {
   .ftco-section {
     padding: 6em 0;
   }
-}
-
-.ftco-no-pt {
-  padding-top: 0 !important;
-}
-
-.ftco-no-pb {
-  padding-bottom: 0 !important;
 }
 
 .ftco-bg-dark {
@@ -10058,7 +10050,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   background: #000000;
-  padding: 7em 0;
+  padding-top: 7em;
   z-index: 0;
 }
 .ftco-footer .ftco-footer-logo {
