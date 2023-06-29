@@ -9626,8 +9626,8 @@ h1, h2, h3, h4, h5,
 }
 .btn.btn-primary:hover {
   border: 1px solid #b41515 !important;
-  background: #b41515 !important;
-  color: #000000 !important;
+  color: #b41515 !important;
+  background: #000000 !important;
 }
 .btn.btn-primary.btn-outline-primary {
   border: 2px solid #b41515 !important;
@@ -9666,8 +9666,8 @@ h1, h2, h3, h4, h5,
 }
 .btn.btn-white:hover {
   border: 1px solid #000000;
-  background: #fff !important;
-  color: #fff;
+  color: #fff !important;
+  background: #000000 !important;
 }
 .btn.btn-white.btn-outline-white {
   border: 1px solid rgba(255, 255, 255, 0.5) !important;
@@ -10193,6 +10193,14 @@ textarea.form-control {
 }
 .heading-section.heading-section-white p {
   color: rgba(255, 255, 255, 0.9);
+}
+
+.img,
+.blog-img,
+.user-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .image-popup {

@@ -760,8 +760,8 @@ h1, h2, h3, h4, h5,
 		color: $black !important;
 		&:hover {
 			border: 1px solid $primary !important;
-			background: $primary !important;
-			color :$black !important;
+			color: $primary !important;
+			background :$black !important;
 		}
 		&.btn-outline-primary {
 			border: 2px solid $primary !important;
@@ -800,8 +800,8 @@ h1, h2, h3, h4, h5,
 		color: $black !important;
 		&:hover {
 			border: 1px solid $black;
-			background: $white !important;
-			color :$white;
+			color: $white !important;
+			background :$black !important;
 		}
 		&.btn-outline-white {
 			border: 1px solid rgba(255,255,255,.5) !important;
@@ -1422,9 +1422,9 @@ textarea.form-control {
 .img,
 .blog-img,
 .user-img{
-	// background-size: cover;
-	// background-repeat: no-repeat;
-	// background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 
