@@ -425,10 +425,10 @@ h1, h2, h3, h4, h5,
 					text-align: center;
 				}
 				.one-third{
-					width: 60%;
-					position: relative;
+					// width: 60%;
+					// position: relative;
 					// height: 650px;
-					z-index: -1;
+					// z-index: -1;
 					.overlay{
 						position: absolute;
 						top: 0;
@@ -461,7 +461,7 @@ h1, h2, h3, h4, h5,
 						left: 0;
 						bottom: 0;
 						right: 0;
-						width: 1200px;
+						width: 100%;
 						margin: 0 auto;
 					}
 					@include media-breakpoint-down(md){
@@ -475,6 +475,10 @@ h1, h2, h3, h4, h5,
 						padding: 1em;
 					}
 					.text{
+						display: flex;
+						flex-direction: column;
+						justify-content: center;
+						text-align: center;
 						width: 100%;
 						@include media-breakpoint-up(lg){
 							position: absolute;
@@ -483,9 +487,9 @@ h1, h2, h3, h4, h5,
 							transform: translateY(-50%);
 							right: 0;
 							// width: 1200px;
-							max-width: 50%;
-							padding-left: 45px;
-							padding-right: 3em;
+							// max-width: 50%;
+							// padding-left: 45px;
+							// padding-right: 3em;
 						}
 					}
 				}
@@ -1418,9 +1422,9 @@ textarea.form-control {
 .img,
 .blog-img,
 .user-img{
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
+	// background-size: cover;
+	// background-repeat: no-repeat;
+	// background-position: center center;
 }
 
 
